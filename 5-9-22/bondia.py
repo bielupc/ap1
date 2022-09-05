@@ -1,0 +1,2 @@
+# secuència
+print("Bon dia!")
