@@ -4,10 +4,14 @@ from yogi import read
 a = read(int)
 b = read(int)
 
+n = a
+m = b
 
-d = min(a, b)
 
-for i in range(1, d + 1):
-    if a % d == 0 and b % d ==0:
-        print(f"The gcd of {a} and {b} is {i}.")
-        break
+while b != 0:
+    r = a % b
+    a = b
+    b = r
+print(f"The gcd of {n} and {m} is {a}.")
+
+

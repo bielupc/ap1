@@ -1,12 +1,14 @@
 from yogi import read
 
-a1 = read(int)
-a2 = read(int) 
+start1 = read(int)
+end1 = read(int) 
 
-b1 = read(int)
-b2 = read(int)
+start2 = read(int)
+end2 = read(int)
 
-if b1 > a2 or b2 < a1:
-   print("[]")
+
+if start2 <= end1 and start1 < end2 or start1 <= end2 and start2 < end1:
+    print(f"[{max(start1, start2)},{min(end1, end2)}]")
+
 else:
-    print(f"[{max(a1, b1)},{max(a2, b2)}]")
+    print("[]")
