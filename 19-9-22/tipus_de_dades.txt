@@ -1,0 +1,63 @@
+int -- enter -- 3
+float -- decimal --- 3.14
+string -- cadena de text -- "hola"
+bool -- boolea -- True
+
+type(x)
+variables tenen tipus de l'element que contenen
+! no canviar tipus de variables
+
+Tipus:
+  -Conjunt de valors
+  -Conjunt d'operacions
+
+Enters 
+  -Conjunt Z
+  - + - // % **  (aritmetics)
+  - == != > < <= >= (relacionals)
+
+Reals
+  -3.14, -2.0, -2. != -2, 1e6 -- 1x10⁶
+  -aproximació coma flotant
+  - + - * / ** %
+  - < > == != <= >= 
+
+Text
+  -Sequències de caràcters
+  -Unicode
+  - ""
+  -" "
+  -"\n"
+  -"\a"
+  -"\\"
+  - + * 
+  - .isupper() .islower()
+  - .upper() .lower()
+  - < ordre alfabetic
+
+Booleans
+  -True o False
+  -not (negació) and (conjunció) or (disjunció)
+  - if not es_fosc: o if es_fosc: no cal if es_fosc == True:
+
+python te un sistema de de tipus dinàmic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tipus complexos
