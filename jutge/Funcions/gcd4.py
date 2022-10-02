@@ -6,3 +6,14 @@ def gcd(a:int, b:int) -> int:
         a = b
         b = r
     return a
+
+def gcd4(a:int, b:int, c:int, d:int) -> int:
+    """Troba el MCD de 4 nombres > 0"""
+    n = gcd(a, b)
+    m = gcd(c, d)
+
+    return gcd(n, m)
+
+
+
+
