@@ -1,0 +1,15 @@
+Proposició que es manté:
+  -Al principi del bucle
+  -A cada iteració
+  -Al final de cada iteració
+
+Init
+while condition:
+  Invariant i condition
+  Body of the loop
+  Invariant
+Invariant i not condition
+
+Parar el loop, mirar al final, fer foto i descriure el que hi ha sense parlar de iteracions antigues.
+
+
