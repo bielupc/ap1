@@ -1,4 +1,5 @@
-from yogi import read, scan, tokens
+from yogi import scan
+
 
 def es_primer(n: int) -> bool:
     if n <= 1:
@@ -29,4 +30,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
