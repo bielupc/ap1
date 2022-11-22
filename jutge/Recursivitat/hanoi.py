@@ -1,10 +1,9 @@
+from statistics import harmonic_mean
 from yogi import read
 
 def solve_hanoi(n: int, a: int, b: int, c: int) -> None:
-    if n == 1:
-        print("A => C")
-    else:
-        if a >= 3:
+    if n > 0:
+        solve_hanoi(n - 1, c, b)
 
 
 

@@ -1,5 +1,5 @@
 
-
+from yogi import read
 def reduction_of_digits(x: int) -> int:
     if x < 10:
         return x

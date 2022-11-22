@@ -1,5 +1,6 @@
 from math import floor
 
+
 def day_of_the_week(d : int, m : int, y : int) -> str:
     """Donat un dia d, mes m i any y retorna un dia de la setmana corresponent"""
     m -= 2
@@ -28,5 +29,4 @@ def day_of_the_week(d : int, m : int, y : int) -> str:
         return "Friday"
     else:
         return "Saturday"
-
 
