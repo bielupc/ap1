@@ -1,0 +1,16 @@
+paràmetres reals - paràmetres sobre els quals treballa la funció
+
+
+passar paràmetres per valor - crear copia sense cap canvi en el paràmetre real, menys eficient.
+passar paràmetres per valor - més eficient però amb risc de canviar els valors de les variables.
+ref const.
+
+Amb 8 bits es poden representar 2^8 valors diferents.
+Amb valor mínim 0 i max 255
+
+
+clang++ -Wall -o2 -std=c++20 p.cc -o p.x
+
+Warnings all, optimització nivell 2, estàndard del 2020, programa i executable que genera.
+
+

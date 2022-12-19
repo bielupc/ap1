@@ -1,5 +1,6 @@
 from typing import Any, TypeAlias, Optional, TypeVar, Union
 
+
 T = TypeVar("T")
 
 Temepratura: TypeAlias = list[float]

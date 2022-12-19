@@ -1,0 +1,32 @@
+from yogi import read, scan
+from itertools import enumerate
+
+
+
+
+
+def main() -> None:
+    n = read(int)
+
+    while n != 0:
+        words: list[str] = list()
+        for _ in range(n):
+            list.append(read(str))
+        words.sort()
+
+        counted: list[tuple[str, int]] = list()
+
+        count = 0
+        for i in range(len(words)-1):
+            if words[i] == words[i+1]:
+                count += 1
+            else:
+                counted.append((words[i], count))
+                count = 0
+        print(counted)
+
+        n = read(int)
+
+
+if __name__ == "__main__":
+    main()
