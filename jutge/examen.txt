@@ -1,0 +1,8 @@
+- main(), variables globals
+- no breaks
+- moltes funcions
+- documentar
+- no utilitzar substantius per accions
+- bons noms de variables
+- separació de dos espais per funcions i entremig del codi seccionar amb 1 espai
+- no posar parèntesi si no calen

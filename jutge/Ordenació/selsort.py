@@ -1,16 +1,18 @@
 from yogi import read, scan, tokens
 
+def posicio_minim(v: list[float], i: int) -> int:
+  n = len(v)
+  p = i
+  for j in range(i+1, n):
+    if v[j] < v[p]:
+      p = j
+  return p
 
 def selsort(v: list[float]) -> None:
-  for i, n in enumerate(v):
-    min = n
-    for j,m in enumerate(v[i::]):
-      if m < min:
-        min = m
-        idx = j
-    v[i], v[v.index(min)] = v[v.index(min)], v[i]
-
-  return v
+  n = len(v)
+  for i in range(n):
+    p = posicio_minim(v, i)
+    v[i], v[p] = v[p], v[i]
 
 
 def main():
